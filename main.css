@@ -1,0 +1,131 @@
+/*HEADER*/
+
+.header{
+	background-color: #33FF4B;
+	height: 300px;
+}
+
+
+.navbar-brand{
+color : black;
+}
+
+.form-control{
+	margin-top: 100px;
+	margin-left: 400px;
+	width: 500px !important;
+}
+
+
+.bar{
+	margin-top: 100px;
+	margin-left: 50px;
+	background-color: black!important;
+}
+
+.btn{
+	color: white;
+	background-color: #33FF4B;
+	text-decoration: none;
+}
+
+
+
+
+@media (max-width: 1042px){
+	
+	.form-control{
+	margin-top: 100px;
+	margin-left: 200px;
+	width: 500px !important;
+}
+
+}
+
+@media (max-width: 842px){
+	
+	.form-control{
+	margin-top: 100px;
+	margin-left: 150px;
+	width: 500px !important;
+}
+
+}
+
+
+@media (max-width: 792px){
+	
+	.form-control{
+	margin-top: 100px;
+	margin-left: 150px;
+	width: 500px !important;
+}
+
+	.bar{
+		margin-top: 100px;
+		margin-left: 350px;
+	}
+
+}
+
+
+
+/*BODY*/
+.form-section{
+	background-color: red;
+	height: 400px;
+}
+
+.form-row{
+	background-color: black;
+	position: relative;
+	top: 40px;
+	left: 200px;
+}
+
+
+.row{
+	
+	}
+
+.col-lg-4{
+padding-top: 20px;
+padding-bottom: 20px;
+}
+
+
+.image-div{
+	text-align: center;
+}
+
+.name-div{
+	/*text-align: center;*/
+	margin-left: 100px;
+}
+
+.price-div{
+	/*text-align: center;*/
+	margin-left: 100px;
+}
+
+
+@media (max-width: 884px)
+{
+	.c{
+		margin-left: 10px;
+	}
+}
+
+.checked {
+  color: orange;
+}
+
+
+
+
+/*FOOTER*/
+
+footer{
+	height: 100px;
+	background-color: #33FF4B;
+}
