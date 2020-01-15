@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+
+
+<style type="text/css">
+	
+
+.other {
+    height: 400px;
+    border: 1px solid blue;
+}
+
+.slidingDiv {
+    height: 200px;
+    border: 1px solid red;
+}
+
+
+</style>
+
+
+
+
+
+
+
+
+
+
+
+<div class="show_hide">Show/Hide</div>
+
+<div class="other">
+</div>
+
+<div class="slidingDiv">
+</div>
+
+<div class="show_hide">Show/Hide</div>
+
+<div class="other">
+</div>
+
+<div class="slidingDiv">
+</div>
+
+<div class="show_hide">Show/Hide</div>
+
+<div class="other">
+</div>
+
+<div class="slidingDiv">
+</div>
+
+<div class="show_hide">Show/Hide</div>
+
+<div class="other">
+</div>
+
+<div class="slidingDiv">
+</div>
+
+<div class="show_hide">Show/Hide</div>
+
+<div class="other">
+</div>
+
+<div class="slidingDiv">
+</div>
+
+
+<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+<script type="text/javascript">
+	
+$(document).ready(function() {
+
+    $(".slidingDiv").hide();
+    $(".show_hide").show();
+
+    $('.show_hide').click(function() {
+        $(".slidingDiv").slideToggle(1000);
+        $('html, body').animate({
+          scrollTop: $(".slidingDiv").offset().top + $('window').height()
+        }, 2000);
+    });
+});
+
+</script>
+
+
+
+</body>
+</html>

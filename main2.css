@@ -1,0 +1,168 @@
+body{
+	background-color: #EAECEE;
+}
+
+
+.navbar{
+	background-color: white;
+}
+
+.card{
+	width: 1080px;
+}
+
+.card-img-top{
+	height: 200px;
+	width: 400px;
+}
+
+
+.checked {
+  color: orange;
+}
+
+.form-control{
+	margin-top: 10px;
+	margin-left: 400px;
+	width: 500px !important;
+}
+
+
+.search-button{
+	margin-left: 5px;
+	margin-top: 10px;
+}
+
+.sorts-form{
+	margin-top: 40px;
+	margin-left: 220px;
+	margin-bottom: 20px;
+}
+
+
+@media (max-width:997px){
+
+.form-control{
+	margin-left: 100px;
+	width: 500px !important;
+}
+
+}
+
+
+@media (max-width:697px){
+
+.form-control{
+	margin-left: 0px;
+	width: 500px !important;
+}
+
+}
+
+
+@media (max-width:597px){
+
+.form-control{
+	margin-left: 0px;
+	width: 500px !important;
+}
+
+.search-button{
+	margin-left: 10px;
+	margin-top:10px;
+}
+
+}
+
+
+@media (max-width:514px){
+
+.sorts-form{
+	margin-left: 0px;
+}
+
+}
+
+
+
+
+.panelone{
+	margin-top: 10px;
+	display: none;
+	width: 1080px;
+}
+
+.paneltwo{
+	display: none;
+}
+
+.panelthree{
+	display: none;
+}
+
+.panelfour{
+	margin-top: 10px;
+	display: none;
+	width: 1080px;
+}
+
+.panelfive{
+	display: none;
+}
+
+.panelsix{
+	display: none;
+}
+
+.panelseven{
+	display: none;
+}
+
+
+#map {
+            height: 300px;    
+            width: 500px;  
+            margin-top: 10px;          
+  } 
+
+
+          .fanss{
+          	padding-left: 200px;
+          }
+
+
+
+          .facil{
+          	margin-top: 10px;
+          }
+
+
+          .map-contact{
+          	margin-bottom: 20px;
+          }
+
+
+
+
+
+/*FOOTER*/
+footer{
+	height: 200px;
+	background-color: #566573;
+}
+
+.footer-img{
+	margin-top: 10px;
+}
+
+
+.footer-div{
+	text-align: center;
+}
+
+
+
+
+.col{
+	padding-bottom: 50px;
+}

@@ -1,13 +1,24 @@
 /*HEADER*/
 
+body{
+	background-color: #EAECEE;
+}
+
+
+
 .header{
-	background-color: #33FF4B;
+	background-image: url('h.jpg');
 	height: 300px;
 }
 
 
 .navbar-brand{
 color : black;
+}
+
+
+.navbar{
+	background-color: white;
 }
 
 .form-control{
@@ -20,14 +31,8 @@ color : black;
 .bar{
 	margin-top: 100px;
 	margin-left: 50px;
-	background-color: black!important;
 }
 
-.btn{
-	color: white;
-	background-color: #33FF4B;
-	text-decoration: none;
-}
 
 
 
@@ -124,8 +129,18 @@ padding-bottom: 20px;
 
 
 /*FOOTER*/
-
 footer{
-	height: 100px;
-	background-color: #33FF4B;
+	height: 200px;
+	background-color: #566573;
 }
+
+.footer-img{
+	margin-top: 10px;
+}
+
+
+.footer-div{
+	text-align: center;
+}
+
+
