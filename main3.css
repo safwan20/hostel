@@ -1,0 +1,103 @@
+body{
+	background-color: #EAECEE;
+}
+
+.navbar{
+	background-color: white;
+}
+
+
+
+.card{
+	width: 1500px;
+	margin-top: 10px;
+	margin-left: 10px;
+}
+
+
+.checked {
+  color: orange;
+}
+
+
+.col-5{
+		padding-bottom: 10px;
+}
+
+.col-6{
+		padding-bottom: 10px;
+}
+
+
+
+.fanss{
+	padding-left: 400px;
+}
+
+
+#hotel_name{
+	font-family: Verdana;
+}
+
+#gallery_hotel{
+	font-family: Times;
+}
+
+.jk{
+	display: inline-block;
+	padding-bottom: 20px;
+}
+
+
+.icon_text {
+    display:inline;
+}
+
+p{
+	display: inline;
+}
+
+.stars{
+	padding-bottom: 30px;
+}
+
+
+.img-fluid{
+	height:230px; 
+	width : 280px;
+}
+
+
+.facil{
+
+	text-align: center;
+}
+
+
+
+
+
+
+
+
+/*FOOTER*/
+footer{
+	height: 200px;
+	background-color: #566573;
+	margin-top: 10px;
+}
+
+.footer-img{
+	margin-top: 10px;
+}
+
+
+.footer-div{
+	text-align: center;
+}
+
+
+
+#mapid { height: 300px;width: 1500px; }
+
+

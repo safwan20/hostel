@@ -1,99 +1,32 @@
 <!DOCTYPE html>
 <html>
-<head>
-	<title></title>
-</head>
-<body>
-
-
-<style type="text/css">
-	
-
-.other {
-    height: 400px;
-    border: 1px solid blue;
+  <head>
+    <style>
+      /* Set the size of the div element that contains the map */
+      #map {
+        height: 400px;  /* The height is 400 pixels */
+        width: 100%;  /* The width is the width of the web page */
+       }
+    </style>
+  </head>
+  <body>
+    <h3>My Google Maps Demo</h3>
+    <!--The div element for the map -->
+    <div id="map"></div>
+    <script>
+// Initialize and add the map
+function initMap() {
+  // The location of Uluru
+  var uluru = {lat: -25.344, lng: 131.036};
+  // The map, centered at Uluru
+  var map = new google.maps.Map(
+      document.getElementById('map'), {zoom: 4, center: uluru});
+  // The marker, positioned at Uluru
+  var marker = new google.maps.Marker({position: uluru, map: map});
 }
-
-.slidingDiv {
-    height: 200px;
-    border: 1px solid red;
-}
-
-
-</style>
-
-
-
-
-
-
-
-
-
-
-
-<div class="show_hide">Show/Hide</div>
-
-<div class="other">
-</div>
-
-<div class="slidingDiv">
-</div>
-
-<div class="show_hide">Show/Hide</div>
-
-<div class="other">
-</div>
-
-<div class="slidingDiv">
-</div>
-
-<div class="show_hide">Show/Hide</div>
-
-<div class="other">
-</div>
-
-<div class="slidingDiv">
-</div>
-
-<div class="show_hide">Show/Hide</div>
-
-<div class="other">
-</div>
-
-<div class="slidingDiv">
-</div>
-
-<div class="show_hide">Show/Hide</div>
-
-<div class="other">
-</div>
-
-<div class="slidingDiv">
-</div>
-
-
-<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-
-<script type="text/javascript">
-	
-$(document).ready(function() {
-
-    $(".slidingDiv").hide();
-    $(".show_hide").show();
-
-    $('.show_hide').click(function() {
-        $(".slidingDiv").slideToggle(1000);
-        $('html, body').animate({
-          scrollTop: $(".slidingDiv").offset().top + $('window').height()
-        }, 2000);
-    });
-});
-
-</script>
-
-
-
-</body>
+    </script>
+    <script async defer
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBSIlzG71VytrQuLXGTSS0xYuNKCGFR2oU&callback=initMap">
+    </script>
+  </body>
 </html>
